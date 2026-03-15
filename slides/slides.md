@@ -26,15 +26,3 @@ mdc: true
 src: ./pages/using-git.md
 --- 
 
-<!-- 
----
-src: ./pages/about-slidev.md
---- 
--->
-
-<!-- 
----
-src: ./pages/using-git.md
---- 
--->
-

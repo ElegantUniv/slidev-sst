@@ -45,8 +45,13 @@ pnpm create slidev
 ...
 ```
 
-- 위와 같이 프로젝트를 생성하면, 아래와 같은 디렉토리 구조가 된다
-- `slides` 디렉토리가 실질적인 작업디렉토리이다. 
+---
+layout: default
+---
+
+# `slidev` 프로젝트 만들기 
+
+- 프로젝트를 생성하면, 다음과 같은 디렉토리 구조가 된다
 
 
 ```shell
@@ -56,22 +61,36 @@ slidev-sst/
 └── REAME.md 
 ```
 
+- `slides` 디렉토리가 실질적인 작업디렉토리이므로 `slides` 디렉토리로 이동한다. 
+
+```shell
+cd slides
+pwd # /dev/source/repos/slidev-sst/slides
+```
+
+- 이후 `slides` 디렉토리에서 `pnpm run dev`를 실행하여 계속적인 개발 진행이 가능하다. 
+
+```shell
+pwd # /dev/source/repos/slidev-sst/slides
+pnpm run dev
+```
+
 ---
 layout: default
 ---
 
 # `slides` 폴더를 작업디렉토리로  편집된 내용 반영
 
-- `slides` 디렉토리로 이동한다.
 - visual studio code 등의 편집기를 통해 `slides.md` 파일을 편집한다.
-- 변경된 내용을 commit 하도록 하자.
-
 
 ```shell
-cd slides
 pwd # /dev/source/repos/slidev-sst/slides
-code . # visual studio code 등을 통해 편집
+code . # visual studio code 등을 통해 slides.md 파일 편집
+```
 
+- 변경된 내용을 commit 하도록 하자.
+
+```shell
 git add -A
 git commit -m "Initial commit"
 git push -u origin main
@@ -83,12 +102,13 @@ layout: default
 
 # `github.com`을 통한 퍼블리쉬
 
-`slides/package.json` 의 `build` 옵션을 다음과 같이 변경한다.
+- `slides/package.json` 의 `build` 옵션을 다음과 같이 변경한다.
+
 ```json
   "build": "slidev build --base /slidev-sst",
 ```
 
-다음과 같이 슬라이드 폴더를 `build`하여 만들어진 `./dist` 폴더를 `../docs/` 폴더로 이동시키고 원격 저장소에 반영한다.
+- `build`하여 만들어진 `./dist` 폴더를 `../docs/` 폴더로 이동시키고 원격 저장소에 반영한다.
 
 ```sh
 pwd # /dev/source/repos/slidev-sst/slides
@@ -106,13 +126,13 @@ layout: default
 
 # `github.com`을 통한 퍼블리쉬
 
-해당 프로젝트의 > Settings > Pages 방문
+- 해당 프로젝트의 > Settings > Pages 방문
 `https://github.com/ElegantUniv/slidev-sst/settings/pages`
+- Build and deployment > Source > Deploy from a branch
+- Branch > main > /docs > `Save` 버튼 클릭
 
+<img src="/images/github-slidev-sst-settings-pages.png" class="w-[400px] m-auto mt-4" />
 
-Build and deployment > Source > Deploy from a branch
-
-Branch > main > /docs > `Save` 버튼 클릭
 
 ---
 layout: default
