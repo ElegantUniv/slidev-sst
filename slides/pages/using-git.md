@@ -66,25 +66,19 @@ slidev-sst/
 └── REAME.md 
 ```
 
-- `slides` 디렉토리가 실질적인 작업디렉토리이므로 `slides` 디렉토리로 이동한다. 
+- 프로젝트 폴더는 `slides` 디렉토리이며, 실질적인 작업 디렉토리가 된다.
+- `slides` 디렉토리로 이동한다. 
 
 ```shell
 cd slides
 pwd # /dev/source/repos/slidev-sst/slides
 ```
 
-- 이후 `slides` 디렉토리에서 `pnpm run dev`를 실행하여 계속적인 개발 진행이 가능하다. 
-
-```shell
-pwd # /dev/source/repos/slidev-sst/slides
-pnpm run dev
-```
-
 ---
 layout: default
 ---
 
-# `slides` 폴더를 작업디렉토리로  편집된 내용 반영
+# 슬라이드 내용 편집 및 반영
 
 - visual studio code 등의 편집기를 통해 `slides.md` 파일을 편집한다.
 
@@ -151,3 +145,33 @@ https://elegantuniv.github.io/slidev-sst
 
 
 
+
+---
+layout: default
+---
+
+# Slidev 프로젝트 지속적인 개발
+
+다른 컴퓨터에서 자신이 만든 slidev 프로젝트를 클로닝해 개발할 경우
+
+- `slides` 디렉토리에서 `pnpm run dev`를 실행하여 계속적인 개발 진행이 가능하다. 
+
+```shell
+pwd # /dev/source/repos/slidev-sst/slides
+pnpm run dev
+```
+
+⚠️ 만일 아래와 같은 에러가 뜬다면 `node_modules`가 누락된 경우이다.
+- 프로젝트 설정 파일(`package.json`)은 있지만, 실제 실행 파일들이 있는 `node_modules` 폴더가 없는 경우이다.
+
+```bash
+'slidev' is not recognized as an internal or external command, operable program or batch file.
+ ELIFECYCLE  Command failed with exit code 1.
+ WARN   Local package.json exists, but node_modules missing, did you mean to install?
+```
+
+- 프로젝트 폴더에서 인스톨 명령을 수행하자.
+
+```bash
+pnpm install
+```
