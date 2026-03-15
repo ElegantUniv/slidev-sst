@@ -35,14 +35,15 @@ layout: default
 
 # `slidev` 프로젝트 만들기 
 - `pnpm create slidev` 명령으로 프로젝트를 생성한다.
-- 관리의 편의성을 위해, 프로젝트 이름은 `slides`로 통일하자.
-
+    - `Project name:`에서 프로젝트명은 `slides`로 통일하자.
+    - `Choose the package manager`에서는 pnpm을 고르도록 하자.
 ```shell
 pwd # /dev/source/repos/slidev-sst
 pnpm create slidev
 ...
 √ Project name: ... slides
 ...
+? Choose the package manager
 ```
 
 ---
