@@ -4,6 +4,10 @@ layout: cover
 
 # git와 함께 활용하기
 
+- reference: 
+["Slidev for Tech Talks" by Martin Brochhaus | PUGS Meetup May 2023 @ Red Hat](https://youtu.be/gsWCVPsoClw)
+
+
 ---
 layout: default
 ---

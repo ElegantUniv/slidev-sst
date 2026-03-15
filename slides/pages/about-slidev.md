@@ -4,6 +4,8 @@ layout: cover
 
 # Slidev 소개
 
+[Slidev 홈페이지](https://sli.dev/)
+
 ---
 layout: default
 ---
@@ -22,7 +24,7 @@ layout: default
 # Slidev 설치하기
 
 - 먼저 [Node.js](https://nodejs.org/ko/download)를 설치한다.
-- Slidev 홈페이지의 [Getting Started](https://sli.dev/guide/)의 Create Locally에서 소개한 바와 같이 slidev 프로젝트를 만들 수 있다.
+- [Slidev 홈페이지](https://sli.dev/)의 [Getting Started](https://sli.dev/guide/)의 Create Locally에서 소개한 바와 같이 slidev 프로젝트를 만들 수 있다.
 
 ## slidev 프로젝트 만들기
 
