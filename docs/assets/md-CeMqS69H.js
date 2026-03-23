@@ -1,0 +1,14 @@
+import{_ as h}from"./slidev/CodeBlockWrapper.vue_vue_type_script_setup_true_lang-DuFQsVdW.js";import{o as k,b as r,w as a,g as s,ad as i,d,m as p,v as g,x as f,T as l}from"./modules/vue-Bb5JUXOJ.js";import{I as c}from"./slidev/default-DnoodbbJ.js";import{u as m,f as u}from"./slidev/context-B5SIUI8v.js";import"./modules/unplugin-icons-Be_V6fAt.js";import"./index-Es4S0jR-.js";import"./modules/shiki-CgH6uPBv.js";const v={__name:"slidev-layouts.md__slidev_32",setup(b){const{$clicksContext:e,$frontmatter:n}=m();return e.setup(),(y,t)=>{const o=h;return k(),r(c,g(f(l(u)(l(n),31))),{default:a(()=>[t[1]||(t[1]=s("h1",null,[s("code",null,"fact"),i(" / "),s("code",null,"quote")],-1)),t[2]||(t[2]=s("p",null,"핵심 수치나 인용문을 돋보이게 할 때 사용한다.",-1)),d(o,p({},{title:"",ranges:[]}),{default:a(()=>[...t[0]||(t[0]=[s("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[s("code",{class:"language-md"},[s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#79B8FF","--shiki-dark-font-weight":"bold","--shiki-light":"#005CC5","--shiki-light-font-weight":"bold"}},"---")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"layout: fact")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#4D9375","--shiki-dark-font-weight":"bold","--shiki-light":"#1C6B48","--shiki-light-font-weight":"bold"}},"---")]),i(`
+`),s("span",{class:"line"}),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#666666","--shiki-dark-font-weight":"bold","--shiki-light":"#999999","--shiki-light-font-weight":"bold"}},"##"),s("span",{style:{"--shiki-dark":"#4D9375","--shiki-dark-font-weight":"bold","--shiki-light":"#1C6B48","--shiki-light-font-weight":"bold"}}," 52,000+")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"GitHub Stars")]),i(`
+`),s("span",{class:"line"}),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#4D9375","--shiki-dark-font-weight":"bold","--shiki-light":"#1C6B48","--shiki-light-font-weight":"bold"}},"---")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"layout: quote")]),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#4D9375","--shiki-dark-font-weight":"bold","--shiki-light":"#1C6B48","--shiki-light-font-weight":"bold"}},"---")]),i(`
+`),s("span",{class:"line"}),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},'"간결한 마크다운으로 세련된 슬라이드를."')]),i(`
+`),s("span",{class:"line"}),i(`
+`),s("span",{class:"line"},[s("span",{style:{"--shiki-dark":"#DBD7CAEE","--shiki-light":"#393A34"}},"— Slidev")])])],-1)])]),_:1},16)]),_:1},16)}}};export{v as default};

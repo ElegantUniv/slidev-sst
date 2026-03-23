@@ -30,3 +30,17 @@ src: ./pages/about-slidev.md
 src: ./pages/using-git.md
 --- 
 
+---
+src: ./pages/slidev-themes.md
+--- 
+
+
+---
+src: ./pages/slidev-layouts.md
+--- 
+
+
+---
+src: ./pages/slidev-with-AI.md
+--- 
+
